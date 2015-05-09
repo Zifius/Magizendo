@@ -1,0 +1,3 @@
+[submodule "Ecg"]
+	path = Ecg
+	url = https://github.com/magento-ecg/coding-standard.git
