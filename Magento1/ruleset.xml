@@ -1,0 +1,10 @@
+<ruleset name="Magento1">
+    <rule ref="Zend" />
+    <rule ref="../Ecg/Ecg" />
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120" />
+            <property name="absoluteLineLimit" value="160" />
+        </properties>
+    </rule>
+</ruleset>

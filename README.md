@@ -1,4 +1,4 @@
-# This phpcs standard combines Ecg and Zend standards into one
+# This PHPCodeSniffer standard combines Ecg and Zend standards into one
 
 Usage: clone the repo, `git submodule init && git submodule update`
 

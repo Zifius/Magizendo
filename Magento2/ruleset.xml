@@ -1,6 +1,6 @@
-<ruleset name="Magento">
+<ruleset name="Magento2">
     <rule ref="Zend" />
-    <rule ref="./Ecg" />
+    <rule ref="../Ecg/EcgM2" />
     <rule ref="Generic.Files.LineLength">
         <properties>
             <property name="lineLimit" value="120" />
