@@ -6,8 +6,6 @@
 
 ### Usage
 
-Clone the repo, run `git submodule init && git submodule update`
-
 For PhpStorm IDE: setup a "Custom" coding standard pointing to the folder where the ruleset.xml resides, check [PhpStorm Documentation](https://www.jetbrains.com/phpstorm/help/using-php-code-sniffer-tool.html#d285688e206) for details
 
 Alternatively [set standards path globally](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Configuration-Options#setting-the-installed-standard-paths) 

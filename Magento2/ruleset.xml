@@ -1,6 +1,6 @@
 <ruleset name="Magento2">
     <rule ref="PSR2" />
-    <rule ref="../Ecg/EcgM2" />
+    <rule ref="../vendor/magento-ecg/coding-standard/EcgM2" />
     <rule ref="Generic.Files.LineLength">
         <properties>
             <property name="lineLimit" value="120" />
