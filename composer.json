@@ -5,13 +5,19 @@
     "homepage": "https://github.com/Zifius/Magizendo",
     "type": "library",
     "require": {
-        "magento-ecg/coding-standard": "*"
+        "magento-ecg/coding-standard": "dev-phpcs-3.0-compatibility"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Oleksandr Turiak",
             "email": "oturiak@magento.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zifius/coding-standard"
         }
     ]
 }

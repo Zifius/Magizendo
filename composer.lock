@@ -4,27 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4f59da540a316fbff39b449dad823b3",
+    "content-hash": "6cc2c7870cc7a99c41bf56545bcaf89f",
     "packages": [
         {
             "name": "magento-ecg/coding-standard",
-            "version": "2.0",
+            "version": "dev-phpcs-3.0-compatibility",
             "source": {
                 "type": "git",
-                "url": "https://github.com/magento-ecg/coding-standard.git",
-                "reference": "eea9b1d1a21d844f28eb65b0d66a1a4c320e0d6b"
+                "url": "https://github.com/Zifius/coding-standard.git",
+                "reference": "5ff690dbcc17a238969c7a612c14b2d36dc2daf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-ecg/coding-standard/zipball/eea9b1d1a21d844f28eb65b0d66a1a4c320e0d6b",
-                "reference": "eea9b1d1a21d844f28eb65b0d66a1a4c320e0d6b",
+                "url": "https://api.github.com/repos/Zifius/coding-standard/zipball/5ff690dbcc17a238969c7a612c14b2d36dc2daf1",
+                "reference": "5ff690dbcc17a238969c7a612c14b2d36dc2daf1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -37,13 +36,18 @@
             ],
             "description": "A set of PHP_CodeSniffer rules and sniffs.",
             "homepage": "https://github.com/magento-ecg/coding-standard",
-            "time": "2015-12-18T16:52:59+00:00"
+            "support": {
+                "source": "https://github.com/Zifius/coding-standard/tree/phpcs-3.0-compatibility"
+            },
+            "time": "2017-05-20 14:43:50"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "magento-ecg/coding-standard": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
