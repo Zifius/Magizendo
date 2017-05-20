@@ -1,0 +1,15 @@
+{
+    "name": "zifius/magizendo",
+    "description": "PHP_CodeSniffer rules for Magento 1 and Magento 2 (Based on ECG, Zend and PSR2 rules)",
+    "type": "library",
+    "require": {
+        "magento-ecg/coding-standard": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksandr Turiak",
+            "email": "oturiak@magento.com"
+        }
+    ]
+}
