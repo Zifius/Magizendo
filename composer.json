@@ -4,6 +4,7 @@
     "keywords": ["phpcs", "coding-standard"],
     "homepage": "https://github.com/Zifius/Magizendo",
     "type": "library",
+    "version": "3.0",
     "require": {
         "magento-ecg/coding-standard": "~3.0"
     },
